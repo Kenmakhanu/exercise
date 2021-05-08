@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-east-1"
+  profile = "Kenmak"
 }
 
 resource "aws_instance" "foo" {
